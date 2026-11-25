@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clínica Veterinária Planeta Pet | Atendimento 24h em Alagoinhas - BA</title>
+  <meta name="description" content="Clínica Veterinária Planeta Pet em Alagoinhas - BA. Desde 2014 cuidando do seu pet com atendimento 24h, consultas, vacinas, exames laboratoriais, internação e banho & tosa." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+          },
+          colors: {
+            brand: {
+              blue: '#0066CC',
+              dark: '#003B7A',
+              cyan: '#00A3E0',
+              lime: '#84CC16',
+              yellow: '#FACC15',
+              surface: '#F4F9FF'
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-brand-surface text-slate-800 antialiased selection:bg-brand-lime selection:text-slate-900">
+
+  <!-- Barra Superior de Urgência 24h -->
+  <div class="bg-brand-dark text-white text-xs sm:text-sm py-2 px-4">
+    <div class="max-w-6xl mx-auto flex flex-wrap items-center justify-between gap-2">
+      <div class="flex items-center gap-2 font-medium">
+        <span class="inline-flex h-2.5 w-2.5 rounded-full bg-brand-lime animate-pulse"></span>
+        <span>Atendimento 24 Horas &amp; Plantão Veterinário • Desde 2014 em Alagoinhas</span>
+      </div>
+      <div class="flex items-center gap-4 text-slate-200">
+        <a href="tel:7531814272" class="hover:text-brand-yellow transition">Fixo: (75) 3181-4272</a>
+        <a href="https://wa.me/5575988414272" target="_blank" rel="noopener" class="font-bold text-brand-lime hover:underline">WhatsApp: (75) 98841-4272</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <header class="sticky top-0 z-40 bg-white/95 backdrop-blur border-b border-blue-100 shadow-sm">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 h-18 py-3 flex items-center justify-between">
+      <a href="#inicio" class="flex items-center gap-3">
+        <div class="w-11 h-11 rounded-2xl bg-gradient-to-br from-brand-blue to-brand-cyan flex items-center justify-center text-white font-extrabold text-lg shadow-md border-2 border-brand-yellow">
+          PP
+        </div>
+        <div>
+          <span class="block font-extrabold text-brand-dark text-lg leading-tight">Planeta Pet</span>
+          <span class="block text-xs font-semibold text-brand-blue">Clínica Veterinária • 24h</span>
+        </div>
+      </a>
+
+      <nav class="hidden md:flex items-center gap-7 text-sm font-semibold text-slate-600">
+        <a href="#servicos" class="hover:text-brand-blue transition">Serviços</a>
+        <a href="#agendamento" class="hover:text-brand-blue transition">Agendar Horário</a>
+        <a href="#estrutura" class="hover:text-brand-blue transition">Diferenciais</a>
+        <a href="#localizacao" class="hover:text-brand-blue transition">Localização</a>
+      </nav>
+
+      <a href="#agendamento" class="inline-flex items-center gap-2 bg-brand-blue hover:bg-brand-dark text-white text-sm font-bold px-4 py-2.5 rounded-xl shadow transition">
+        <span>Agendar Agora</span>
+        <span aria-hidden="true">→</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="inicio" class="relative overflow-hidden bg-gradient-to-br from-brand-dark via-brand-blue to-brand-cyan text-white pt-12 pb-20 lg:py-20">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 grid lg:grid-cols-12 gap-10 items-center">
+      <div class="lg:col-span-7 space-y-6">
+        <div class="inline-flex items-center gap-2 bg-white/15 backdrop-blur px-3.5 py-1.5 rounded-full text-xs sm:text-sm font-bold text-brand-yellow border border-white/20">
+          <span>🐾 Tradição desde 2014 • Centro de Alagoinhas</span>
+        </div>
+
+        <h1 class="text-3xl sm:text-5xl font-extrabold leading-tight tracking-tight">
+          Cuidado veterinário completo e <span class="text-brand-yellow">atendimento 24h</span> para o seu melhor amigo.
+        </h1>
+
+        <p class="text-blue-100 text-base sm:text-lg max-w-2xl leading-relaxed">
+          Consultas clínicas, vacinas importadas, exames laboratoriais, internação com monitoramento e banho &amp; tosa com profissionais dedicados e preparados no coração de Alagoinhas.
+        </p>
+
+        <div class="flex flex-col sm:flex-row gap-3.5 pt-2">
+          <a href="#agendamento" class="inline-flex items-center justify-center gap-2 bg-brand-lime hover:bg-lime-400 text-slate-950 font-extrabold px-6 py-4 rounded-2xl shadow-lg shadow-lime-950/20 transition text-base">
+            <span>Agendar Consulta ou Banho</span>
+            <span>→</span>
+          </a>
+          <a href="https://wa.me/5575988414272?text=Ol%C3%A1%2C%20Planeta%20Pet!%20Preciso%20de%20atendimento%20veterin%C3%A1rio%20de%20urg%C3%AAncia." target="_blank" rel="noopener" class="inline-flex items-center justify-center gap-2 bg-white/15 hover:bg-white/25 text-white font-bold px-6 py-4 rounded-2xl border border-white/30 transition text-base">
+            <span>🚨 Plantão / Urgência 24h</span>
+          </a>
+        </div>
+
+        <div class="grid grid-cols-3 gap-4 pt-4 border-t border-white/15 max-w-lg">
+          <div>
+            <p class="text-2xl sm:text-3xl font-extrabold text-brand-yellow">+12 anos</p>
+            <p class="text-xs text-blue-100">De história em Alagoinhas</p>
+          </div>
+          <div>
+            <p class="text-2xl sm:text-3xl font-extrabold text-brand-lime">24h</p>
+            <p class="text-xs text-blue-100">Internação e suporte</p>
+          </div>
+          <div>
+            <p class="text-2xl sm:text-3xl font-extrabold text-white">100%</p>
+            <p class="text-xs text-blue-100">Cães e gatos</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card Visual de Destaque -->
+      <div class="lg:col-span-5">
+        <div class="bg-white text-slate-800 rounded-3xl p-6 sm:p-8 shadow-2xl border-4 border-brand-yellow/80 relative">
+          <div class="flex items-center justify-between mb-5">
+            <span class="bg-blue-50 text-brand-blue text-xs font-extrabold px-3 py-1 rounded-full uppercase tracking-wider">Check-up &amp; Bem-Estar</span>
+            <span class="bg-brand-lime/20 text-lime-800 text-xs font-bold px-3 py-1 rounded-full">● Aberto Agora</span>
+          </div>
+
+          <h2 class="text-xl font-extrabold text-brand-dark mb-2">Tudo que seu bichinho precisa em um só lugar</h2>
+          <p class="text-sm text-slate-600 mb-6">Selecione o serviço abaixo e envie sua solicitação direto para nossa recepção no WhatsApp.</p>
+
+          <ul class="space-y-3 text-sm font-medium text-slate-700 mb-6">
+            <li class="flex items-center gap-3 bg-slate-50 p-3 rounded-xl">
+              <span class="w-7 h-7 rounded-lg bg-brand-blue text-white flex items-center justify-center font-bold">✓</span>
+              <span>Consultas Clínicas &amp; Especialidades</span>
+            </li>
+            <li class="flex items-center gap-3 bg-slate-50 p-3 rounded-xl">
+              <span class="w-7 h-7 rounded-lg bg-brand-blue text-white flex items-center justify-center font-bold">✓</span>
+              <span>Protocolo Completo de Vacinas</span>
+            </li>
+            <li class="flex items-center gap-3 bg-slate-50 p-3 rounded-xl">
+              <span class="w-7 h-7 rounded-lg bg-brand-blue text-white flex items-center justify-center font-bold">✓</span>
+              <span>Exames Laboratoriais e de Imagem</span>
+            </li>
+            <li class="flex items-center gap-3 bg-slate-50 p-3 rounded-xl">
+              <span class="w-7 h-7 rounded-lg bg-brand-lime text-slate-900 flex items-center justify-center font-bold">✓</span>
+              <span>Banho &amp; Tosa com Cuidado Dermatológico</span>
+            </li>
+          </ul>
+
+          <a href="#agendamento" class="block w-full text-center bg-brand-blue hover:bg-brand-dark text-white font-bold py-3.5 rounded-xl transition">
+            Montar Agendamento Rápido
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Serviços -->
+  <section id="servicos" class="py-16 sm:py-20 max-w-6xl mx-auto px-4 sm:px-6">
+    <div class="text-center max-w-2xl mx-auto mb-12">
+      <span class="text-xs font-extrabold uppercase tracking-widest text-brand-blue bg-blue-100 px-3 py-1 rounded-full">Nossos Serviços</span>
+      <h2 class="text-2xl sm:text-4xl font-extrabold text-brand-dark mt-3">Estrutura completa para a saúde do seu pet</h2>
+      <p class="text-slate-600 mt-3 text-sm sm:text-base">Clique em qualquer especialidade para pré-selecionar no formulário de agendamento abaixo.</p>
+    </div>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <!-- Card 1 -->
+      <div class="bg-white rounded-2xl p-6 border border-blue-100 shadow-sm hover:shadow-md transition flex flex-col justify-between">
+        <div>
+          <div class="w-12 h-12 rounded-2xl bg-blue-50 text-brand-blue flex items-center justify-center text-2xl mb-4">🩺</div>
+          <h3 class="text-lg font-extrabold text-brand-dark">Consultas Veterinárias</h3>
+          <p class="text-sm text-slate-600 mt-2 leading-relaxed">Avaliação clínica detalhada para cães e gatos, prevenção, acompanhamento geriátrico e orientação nutricional.</p>
+        </div>
+        <button onclick="selecionarServico('Consulta Veterinária')" class="mt-5 text-left text-sm font-bold text-brand-blue hover:text-brand-dark flex items-center gap-1">
+          <span>Agendar consulta</span> <span>→</span>
+        </button>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="bg-white rounded-2xl p-6 border border-blue-100 shadow-sm hover:shadow-md transition flex flex-col justify-between">
+        <div>
+          <div class="w-12 h-12 rounded-2xl bg-lime-50 text-lime-700 flex items-center justify-center text-2xl mb-4">💉</div>
+          <h3 class="text-lg font-extrabold text-brand-dark">Vacinação &amp; Vermifugação</h3>
+          <p class="text-sm text-slate-600 mt-2 leading-relaxed">Vacinas éticas importadas (V8/V10, Antirrábica, Gripe, Giárdia e Tríplice/Quádrupla Felina) com carteira atualizada.</p>
+        </div>
+        <button onclick="selecionarServico('Vacinação')" class="mt-5 text-left text-sm font-bold text-brand-blue hover:text-brand-dark flex items-center gap-1">
+          <span>Agendar vacina</span> <span>→</span>
+        </button>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="bg-white rounded-2xl p-6 border border-blue-100 shadow-sm hover:shadow-md transition flex flex-col justify-between">
+        <div>
+          <div class="w-12 h-12 rounded-2xl bg-amber-50 text-amber-600 flex items-center justify-center text-2xl mb-4">🔬</div>
+          <h3 class="text-lg font-extrabold text-brand-dark">Exames Laboratoriais</h3>
+          <p class="text-sm text-slate-600 mt-2 leading-relaxed">Hemograma, bioquímicos, testes rápidos virais e exames de imagem para diagnóstico ágil e preciso.</p>
+        </div>
+        <button onclick="selecionarServico('Exames Laboratoriais')" class="mt-5 text-left text-sm font-bold text-brand-blue hover:text-brand-dark flex items-center gap-1">
+          <span>Solicitar exame</span> <span>→</span>
+        </button>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="bg-white rounded-2xl p-6 border border-blue-100 shadow-sm hover:shadow-md transition flex flex-col justify-between">
+        <div>
+          <div class="w-12 h-12 rounded-2xl bg-red-50 text-red-600 flex items-center justify-center text-2xl mb-4">🏥</div>
+          <h3 class="text-lg font-extrabold text-brand-dark">Internação 24 Horas</h3>
+          <p class="text-sm text-slate-600 mt-2 leading-relaxed">Monitoramento contínuo por equipe veterinária, fluidoterapia e cuidados intensivos com segurança e carinho.</p>
+        </div>
+        <button onclick="selecionarServico('Internação / Plantão 24h')" class="mt-5 text-left text-sm font-bold text-brand-blue hover:text-brand-dark flex items-center gap-1">
+          <span>Falar com plantão</span> <span>→</span>
+        </button>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="bg-white rounded-2xl p-6 border border-blue-100 shadow-sm hover:shadow-md transition flex flex-col justify-between">
+        <div>
+          <div class="w-12 h-12 rounded-2xl bg-cyan-50 text-brand-cyan flex items-center justify-center text-2xl mb-4">🛁</div>
+          <h3 class="text-lg font-extrabold text-brand-dark">Banho &amp; Tosa</h3>
+          <p class="text-sm text-slate-600 mt-2 leading-relaxed">Higiene completa, hidratação de pelagem, corte de unhas e tosa higiênica ou na tesoura sem estresse.</p>
+        </div>
+        <button onclick="selecionarServico('Banho & Tosa')" class="mt-5 text-left text-sm font-bold text-brand-blue hover:text-brand-dark flex items-center gap-1">
+          <span>Reservar horário</span> <span>→</span>
+        </button>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="bg-white rounded-2xl p-6 border border-blue-100 shadow-sm hover:shadow-md transition flex flex-col justify-between">
+        <div>
+          <div class="w-12 h-12 rounded-2xl bg-emerald-50 text-emerald-700 flex items-center justify-center text-2xl mb-4">🦴</div>
+          <h3 class="text-lg font-extrabold text-brand-dark">Pet Shop &amp; Farmácia</h3>
+          <p class="text-sm text-slate-600 mt-2 leading-relaxed">Rações super premium, medicamentos veterinários, antipulgas e acessórios selecionados para o dia a dia.</p>
+        </div>
+        <button onclick="selecionarServico('Consulta de Produtos / Farmácia')" class="mt-5 text-left text-sm font-bold text-brand-blue hover:text-brand-dark flex items-center gap-1">
+          <span>Consultar estoque</span> <span>→</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Agendamento Interativo WhatsApp -->
+  <section id="agendamento" class="py-16 bg-white border-y border-blue-100">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6">
+      <div class="bg-gradient-to-br from-brand-dark to-brand-blue rounded-3xl p-6 sm:p-10 text-white shadow-xl">
+        <div class="mb-8">
+          <span class="bg-brand-yellow text-slate-950 text-xs font-extrabold px-3 py-1 rounded-full uppercase">Sem espera no telefone</span>
+          <h2 class="text-2xl sm:text-3xl font-extrabold mt-3">Agende direto pelo WhatsApp</h2>
+          <p class="text-blue-100 text-sm sm:text-base mt-1">Preencha os dados do seu pet abaixo e envie a mensagem já formatada para a equipe da Planeta Pet.</p>
+        </div>
+
+        <form id="formAgendamento" class="grid sm:grid-cols-2 gap-4 text-slate-800">
+          <div>
+            <label class="block text-xs font-bold text-blue-100 uppercase mb-1.5">Seu Nome</label>
+            <input type="text" id="tutorNome" required placeholder="Ex.: Mariana Silva" class="w-full px-4 py-3 rounded-xl bg-white border-0 focus:ring-2 focus:ring-brand-lime outline-none text-sm font-medium" />
+          </div>
+
+          <div>
+            <label class="block text-xs font-bold text-blue-100 uppercase mb-1.5">Nome do Pet</label>
+            <input type="text" id="petNome" required placeholder="Ex.: Thor / Mia" class="w-full px-4 py-3 rounded-xl bg-white border-0 focus:ring-2 focus:ring-brand-lime outline-none text-sm font-medium" />
+          </div>
+
+          <div>
+            <label class="block text-xs font-bold text-blue-100 uppercase mb-1.5">Espécie / Porte</label>
+            <select id="petTipo" class="w-full px-4 py-3 rounded-xl bg-white border-0 focus:ring-2 focus:ring-brand-lime outline-none text-sm font-medium">
+              <option value="Cachorro (Porte Pequeno)">Cachorro (Porte Pequeno)</option>
+              <option value="Cachorro (Porte Médio)">Cachorro (Porte Médio)</option>
+              <option value="Cachorro (Porte Grande)">Cachorro (Porte Grande)</option>
+              <option value="Gato">Gato</option>
+              <option value="Outro Pet">Outro Pet</option>
+            </select>
+          </div>
+
+          <div>
+            <label class="block text-xs font-bold text-blue-100 uppercase mb-1.5">Serviço Desejado</label>
+            <select id="servicoTipo" class="w-full px-4 py-3 rounded-xl bg-white border-0 focus:ring-2 focus:ring-brand-lime outline-none text-sm font-medium">
+              <option value="Consulta Veterinária">Consulta Veterinária</option>
+              <option value="Vacinação">Vacinação</option>
+              <option value="Banho & Tosa">Banho &amp; Tosa</option>
+              <option value="Exames Laboratoriais">Exames Laboratoriais</option>
+              <option value="Internação / Plantão 24h">Internação / Plantão 24h</option>
+              <option value="Consulta de Produtos / Farmácia">Consulta de Produtos / Farmácia</option>
+            </select>
+          </div>
+
+          <div>
+            <label class="block text-xs font-bold text-blue-100 uppercase mb-1.5">Turno de Preferência</label>
+            <select id="turnoPreferencia" class="w-full px-4 py-3 rounded-xl bg-white border-0 focus:ring-2 focus:ring-brand-lime outline-none text-sm font-medium">
+              <option value="Manhã (08h às 12h)">Manhã (08h às 12h)</option>
+              <option value="Tarde (14h às 18h)">Tarde (14h às 18h)</option>
+              <option value="Urgência / Plantão 24h">Urgência / Plantão 24h</option>
+            </select>
+          </div>
+
+          <div>
+            <label class="block text-xs font-bold text-blue-100 uppercase mb-1.5">Observação (Opcional)</label>
+            <input type="text" id="observacao" placeholder="Ex.: Reforço da V10 ou tosa higiênica" class="w-full px-4 py-3 rounded-xl bg-white border-0 focus:ring-2 focus:ring-brand-lime outline-none text-sm font-medium" />
+          </div>
+
+          <div class="sm:col-span-2 pt-2">
+            <button type="submit" class="w-full bg-brand-lime hover:bg-lime-400 text-slate-950 font-extrabold py-4 px-6 rounded-2xl shadow-lg transition flex items-center justify-center gap-2 text-base">
+              <span>💬 Enviar Agendamento no WhatsApp</span>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Localização & Contato -->
+  <section id="localizacao" class="py-16 max-w-6xl mx-auto px-4 sm:px-6">
+    <div class="grid lg:grid-cols-12 gap-8 items-center">
+      <div class="lg:col-span-5 space-y-5">
+        <span class="text-xs font-extrabold uppercase tracking-widest text-brand-blue bg-blue-100 px-3 py-1 rounded-full">Onde Estamos</span>
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-brand-dark">Fácil acesso no Centro de Alagoinhas</h2>
+        <p class="text-slate-600 text-sm sm:text-base leading-relaxed">
+          Estamos localizados na <strong>Av. Luís Viana, 141 - Centro, Alagoinhas - BA</strong> (próximo ao Colégio Star), com estrutura preparada para receber você e seu pet com conforto.
+        </p>
+
+        <div class="space-y-3 text-sm">
+          <div class="bg-white p-4 rounded-2xl border border-blue-100">
+            <p class="font-bold text-brand-dark">📍 Endereço Completo</p>
+            <p class="text-slate-600 mt-0.5">Av. Luís Viana, 141 - Centro, Alagoinhas - BA, CEP 48005-420</p>
+          </div>
+
+          <div class="bg-white p-4 rounded-2xl border border-blue-100">
+            <p class="font-bold text-brand-dark">📞 Canais Diretos</p>
+            <p class="text-slate-600 mt-0.5">WhatsApp: <a href="https://wa.me/5575988414272" target="_blank" rel="noopener" class="text-brand-blue font-bold hover:underline">(75) 98841-4272</a> • Fixo: <a href="tel:7531814272" class="font-semibold">(75) 3181-4272</a></p>
+          </div>
+
+          <div class="bg-white p-4 rounded-2xl border border-blue-100">
+            <p class="font-bold text-brand-dark">🕒 Funcionamento</p>
+            <p class="text-slate-600 mt-0.5">Horário comercial para consultas/banho &amp; tosa e <strong>plantão 24 horas</strong> para internação e emergências.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="lg:col-span-7">
+        <div class="rounded-3xl overflow-hidden shadow-lg border border-blue-100 bg-white h-80 sm:h-96">
+          <iframe
+            title="Mapa Clínica Veterinária Planeta Pet Alagoinhas"
+            src="https://www.google.com/maps?q=Av.+Lu%C3%ADs+Viana,+141+-+Centro,+Alagoinhas+-+BA&output=embed"
+            class="w-full h-full border-0"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-brand-dark text-blue-100 py-10 px-4 text-sm">
+    <div class="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
+      <div>
+        <p class="font-extrabold text-white text-base">Clínica Veterinária Planeta Pet</p>
+        <p class="text-xs text-blue-200 mt-0.5">Av. Luís Viana, 141 - Centro, Alagoinhas - BA • @planetapetbahia</p>
+      </div>
+      <div class="text-xs text-blue-200 text-center sm:text-right">
+        <p>© 2026 Planeta Pet Alagoinhas. Todos os direitos reservados.</p>
+        <p class="mt-1">Desenvolvido por <a href="https://atlaswebbr.github.io/Atlas-web-Demostra-es/" target="_blank" rel="noopener" class="text-brand-yellow font-bold hover:underline">Atlas Web</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Botão Flutuante WhatsApp -->
+  <a href="https://wa.me/5575988414272?text=Ol%C3%A1%2C%20Planeta%20Pet!%20Vim%20pelo%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." target="_blank" rel="noopener" aria-label="Falar no WhatsApp" class="fixed bottom-5 right-5 z-50 bg-green-500 hover:bg-green-600 text-white font-bold px-4 py-3.5 rounded-full shadow-xl flex items-center gap-2 transition transform hover:scale-105">
+    <span class="text-lg">💬</span>
+    <span class="hidden sm:inline text-sm">WhatsApp 24h</span>
+  </a>
+
+  <script>
+    function selecionarServico(servico) {
+      const select = document.getElementById('servicoTipo');
+      select.value = servico;
+      document.getElementById('agendamento').scrollIntoView({ behavior: 'smooth' });
+    }
+
+    document.getElementById('formAgendamento').addEventListener('submit', function(e) {
+      e.preventDefault();
+      const tutor = document.getElementById('tutorNome').value.trim();
+      const pet = document.getElementById('petNome').value.trim();
+      const tipo = document.getElementById('petTipo').value;
+      const servico = document.getElementById('servicoTipo').value;
+      const turno = document.getElementById('turnoPreferencia').value;
+      const obs = document.getElementById('observacao').value.trim();
+
+      let msg = `Olá, *Planeta Pet*! Gostaria de agendar um atendimento:\n\n`;
+      msg += `👤 *Tutor:* ${tutor}\n`;
+      msg += `🐾 *Pet:* ${pet} (${tipo})\n`;
+      msg += `🩺 *Serviço:* ${servico}\n`;
+      msg += `🕒 *Turno:* ${turno}\n`;
+      if (obs) msg += `📝 *Obs.:* ${obs}\n`;
+
+      const url = `https://wa.me/5575988414272?text=${encodeURIComponent(msg)}`;
+      window.open(url, '_blank', 'noopener');
+    });
+  </script>
+</body>
+</html>
